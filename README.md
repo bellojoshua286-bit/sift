@@ -24,7 +24,19 @@ Requires Windows 10 or later. Sift installs for your own user account and does n
 
 ### Windows and antivirus warnings
 
-Sift is not code-signed yet, so Windows SmartScreen may show a "Windows protected your PC" screen. Click **More info**, then **Run anyway**. Some antivirus programs also flag apps packaged with PyInstaller, even when they are harmless. The full source code is in this repository, so you can read it or build the app yourself (see below).
+Sift is not code-signed yet, so Windows SmartScreen may show a "Windows protected your PC" screen. Click **More info**, then **Run anyway**.
+
+Some antivirus programs also flag newly released apps, especially ones packaged with PyInstaller, even when they are harmless (a "false positive"). Please do not turn your antivirus off. If it blocks or removes Sift, restore it from quarantine and add the Sift folder (`%LOCALAPPDATA%\Programs\Sift`) to your antivirus exclusions. Only do this if you downloaded Sift from this repository's Releases page and the checksum matches.
+
+## Is Sift safe?
+
+You do not have to take our word for it:
+
+- **Read the code.** All of Sift's source code is in this repository.
+- **No internet.** Sift contains no network code. It does not send your files or any other data anywhere.
+- **You stay in control.** Sift only removes files you tick yourself and confirm, and they go to the Recycle Bin.
+- **Check your download.** Each release lists a SHA-256 checksum. After downloading, open Command Prompt in your Downloads folder and run `certutil -hashfile SiftSetup-1.0.0.exe SHA256`. The result must match the one in the release notes.
+- **Virus scan.** Each release links to a VirusTotal scan report.
 
 ## How it finds duplicates
 
