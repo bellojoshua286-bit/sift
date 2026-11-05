@@ -35,7 +35,7 @@ You do not have to take our word for it:
 - **Read the code.** All of Sift's source code is in this repository.
 - **No internet.** Sift contains no network code. It does not send your files or any other data anywhere.
 - **You stay in control.** Sift only removes files you tick yourself and confirm, and they go to the Recycle Bin.
-- **Check your download.** Each release lists a SHA-256 checksum. After downloading, open Command Prompt in your Downloads folder and run `certutil -hashfile SiftSetup-1.0.0.exe SHA256`. The result must match the one in the release notes.
+- **Check your download.** Each release lists a SHA-256 checksum. After downloading, open Command Prompt in your Downloads folder and run `certutil -hashfile SiftSetup-1.0.1.exe SHA256`. The result must match the one in the release notes.
 - **Virus scan.** Each release links to a VirusTotal scan report.
 
 ## How it finds duplicates

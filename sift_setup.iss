@@ -1,5 +1,5 @@
 #define MyAppName "Sift"
-#define MyAppVersion "1.0.0"
+#define MyAppVersion "1.0.1"
 #define MyAppPublisher "Joshua"
 #define MyAppExeName "Sift.exe"
 

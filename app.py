@@ -361,8 +361,8 @@ class App(ctk.CTk):
         )
         box = ctk.CTkCheckBox(
             chip,
-            text = "",
-            width= 0,
+            text = "Remove",
+            width=100,
             checkbox_width=20,
             checkbox_height=20,
             command=self.update_actions,
@@ -548,7 +548,7 @@ class App(ctk.CTk):
             ctk.CTkLabel(
                 box,
                 text=f"{count_text(self.kept_count, 'match', 'matches')} "
-                     "kept as they were",
+                    "kept as they were",
                 text_color="gray",
             ).pack(pady=(4, 0))
 

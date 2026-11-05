@@ -16,7 +16,7 @@ VSVersionInfo(
         '040904B0',
         [StringStruct('CompanyName', 'Joshua'),
          StringStruct('FileDescription', 'Sift - Duplicate File Finder'),
-         StringStruct('FileVersion', '1.0.0.0'),
+         StringStruct('FileVersion', '1.0.1.0'),
          StringStruct('InternalName', 'Sift'),
          StringStruct('LegalCopyright', 'Copyright (c) 2026 Joshua'),
          StringStruct('OriginalFilename', 'Sift.exe'),
