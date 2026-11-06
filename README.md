@@ -18,7 +18,7 @@ Sift finds duplicate files on Windows and lets you review them side by side befo
 
 ## Download
 
-Get the latest installer from the [Releases page](https://github.com/bellojoshua286-bit/sift/releases/latest), then run `SiftSetup-x.y.z.exe`.
+Get the latest installer from the [Releases page](https://github.com/bellojoshua286-bit/sift/releases/latest), then run `SiftSetup-1.0.1.exe`.
 
 Requires Windows 10 or later. Sift installs for your own user account and does not need administrator rights.
 
@@ -70,7 +70,7 @@ venv\Scripts\python -m pytest
 
 ## Build the app and installer
 
-```
+``` 
 venv\Scripts\python -m PyInstaller --clean --onefile --windowed --name Sift --icon app_icon.ico --add-data "app_icon.ico;." --version-file version_info.txt --collect-all customtkinter app.py
 ```
 
